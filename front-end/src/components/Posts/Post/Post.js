@@ -4,7 +4,7 @@ import useStyles from './styles';
 const Post = () => {
   const classes = useStyles();
   return (
-    <div>Post</div>
+    <div className={classes}>Post</div>
   )
 }
 
